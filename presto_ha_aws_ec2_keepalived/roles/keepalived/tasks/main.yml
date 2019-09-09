@@ -1,0 +1,3 @@
+---
+# tasks file for keepalived
+ - include: "{{ role_path }}/tasks/keepalived.yml"

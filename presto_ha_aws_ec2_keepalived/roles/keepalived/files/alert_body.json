@@ -1,0 +1,18 @@
+{
+	"alerts":[
+		{
+			"status":"firing",
+			"labels":{
+                "level":"P2",
+                "alertname":"Presto",
+                "Environment":"Test",
+                "Tier":"SAS",
+                "groupname": "cdh",
+                "Project":"Cdh"
+            },
+			"annotations":{
+                "description":"presto master 发生切换"
+			}
+		}
+	]
+}
